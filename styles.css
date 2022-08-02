@@ -1,0 +1,38 @@
+.container-label {
+    border: 1px solid black;
+    margin: 50px auto;
+    width: 70%;
+    height: 30rem;
+}
+
+.labelweight {
+    margin-left: 4em;
+    padding-left: 0;
+}
+
+.text {
+    
+    margin-left: 10em;
+    margin-bottom: 30em;
+    margin-top: -5em;
+}
+
+#weight {
+    height: 2em;
+    margin-top: 5em;
+}
+
+#height {
+    height: 2em;
+}
+
+.btn {
+    margin: 10em;
+    height: 3em;
+    width: 20em;
+}
+
+.clear {
+    height: 3em;
+    width: 5em;
+}

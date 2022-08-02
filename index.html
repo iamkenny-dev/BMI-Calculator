@@ -12,19 +12,26 @@
     
     <div class="container">
         <div class="container-label">
-        <label for="weight" >Weight (lbs)</label>
+        <label for="weight" class="labelweight">Weight (lbs)</label>
         <input type="weight" placeholder="Enter your weight" id="weight">
         
         <label for="height" >height (in)</label>
         <input type="height" placeholder="Enter your height" id="height">
         
-        </div>
         <button onclick="BMI()" class="btn">Calcualate BMI</button>
         <button onclick="reload()" class="clear">clear</button>
-
+        
+        <div class="text">
         <h4 id="heading"></h4>
         <p id="bmi-output"></p>
         <p id="message"></p>
+        </div>
+
+
+        </div>
+        
+
+        
 
     </div>
 </body>
