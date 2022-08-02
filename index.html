@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Cal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+<body background="https://images.unsplash.com/photo-1658579126739-03385cb1749b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDYwfGJvOGpRS1RhRTBZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+    
+    <div class="container">
+        <div class="container-label">
+        <label for="weight" >Weight (lbs)</label>
+        <input type="weight" placeholder="Enter your weight" id="weight">
+        
+        <label for="height" >height (in)</label>
+        <input type="height" placeholder="Enter your height" id="height">
+        
+        </div>
+        <button onclick="BMI()" class="btn">Calcualate BMI</button>
+        <button onclick="reload()" class="clear">clear</button>
+
+        <h4 id="heading"></h4>
+        <p id="bmi-output"></p>
+        <p id="message"></p>
+
+    </div>
+</body>
+</html>
