@@ -11,28 +11,27 @@
 }
 
 .text {
-    
-    margin-left: 10em;
-    margin-bottom: 30em;
-    margin-top: -5em;
+    border: 1px solid black;
+    margin: -50rem auto 0 auto;
 }
 
 #weight {
-    height: 2em;
-    margin-top: 5em;
+    height: 2rem;
+    margin-top: 5rem;
 }
 
 #height {
-    height: 2em;
+    height: 2rem;
 }
 
 .btn {
-    margin: 10em;
+    
     height: 3em;
     width: 20em;
 }
 
 .clear {
+    margin-bottom: 50rem;
     height: 3em;
     width: 5em;
 }
